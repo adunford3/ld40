@@ -2,6 +2,7 @@
 Object = require "lib.classic"
 local lume = require "lib.lume"
 local nk = require "nuklear"
+local style = require 'style'
 
 -- Other game files
 require 'dataController'
@@ -38,6 +39,7 @@ end
 function love.update(dt)
 	if gamestate == "startMenu" then
 		nk.frameBegin()
+		style()
 		startMenu()
 		dataInit()
 		nk.frameEnd()

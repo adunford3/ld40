@@ -144,7 +144,7 @@ function checkRevRoles(fam)
 end
 
 function checkMistake() 
-	if mistake > 2 then
+	if numMistakes > 2 then
 		gamestate = 'lose'
 	end
 	if currentProd < prevProd then
