@@ -1,0 +1,2 @@
+names = {"Kozinski", "Gudowicz", "Kanarek", "Kostek", "Nijinsky", "Greb", "Wich", "Jaskolski", "Rupinski", "Malak", "Szymkowiak", "Wolanin", "Biskup", "Soltysiak", "Latka", "Kuras", "Tylicki", "Pniewski", "Biskup", "Soltysiak"}
+return names
