@@ -3,6 +3,7 @@ Object = require "lib.classic"
 local lume = require "lib.lume"
 local nk = require "nuklear"
 local style = require 'style'
+music1 = love.audio.newSource("sound/Distributor_Gameplay.wav")
 
 -- Other game files
 require 'dataController'
@@ -44,6 +45,7 @@ function love.update(dt)
 		dataInit()
 		nk.frameEnd()
 	elseif gamestate == "game" then
+		music1:play()
 		nk.frameBegin()
 		game()
 		nk.frameEnd()
